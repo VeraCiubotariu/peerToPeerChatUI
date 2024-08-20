@@ -1,0 +1,129 @@
+.groups {
+    width: 200px;
+    background: #f8b0ff;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 32px;
+}
+
+.chat-window {
+    margin-left: 230px;
+    display: block;
+    margin-bottom: 100px;
+    margin-top: 64px;
+}
+
+#message-bar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 230px;
+    background: white;
+    padding: 20px;
+    display: inline-flex;
+    column-gap: 16px;
+}
+
+.chat-button {
+    background: #f8b0ff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+
+.chat-button:hover {
+    background: #ff5bbc;
+}
+
+.message {
+    background: beige;
+    border: none;
+    border-radius: 5px;
+    color: #8d552c;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-right: 250px;
+}
+
+.user-message {
+    background: #efef79;
+    border: none;
+    border-radius: 5px;
+    color: #8d552c;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 250px;
+}
+
+.group {
+    color: white;
+    margin: 20px 20px;
+    font-size: 20px;
+}
+
+.group:hover {
+    color: #ff5bbc;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 2;
+    bottom: 32px;
+    left: 32px;
+}
+
+.menu-button {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.menu-button:hover {
+    color: #ff5bbc;
+}
+
+#disconnect-button {
+    position: fixed;
+    right: 20px;
+}
+
+.popup-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 100px;
+    background: white;
+    margin: auto;
+    border: 1px solid black;
+    padding: 16px;
+}
+
+.chat-input {
+    border: 2px solid #f8b0ff;
+    border-radius: 8px;
+    width: 50%;
+    padding: 8px;
+}
+
+.buttons-bar {
+    position: fixed;
+    top: 0;
+    padding: 8px;
+    margin-left: 220px;
+    background: white;
+    width: 100%;
+}
